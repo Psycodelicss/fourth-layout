@@ -1,0 +1,66 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+header {
+	height: 700px;
+	background-color: #abeafa;
+	background-size: cover;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	height: 100%;
+	outline: 1px solid black;
+}
+header .container .top_left_header {
+	height: 100%;
+	float: left;
+}
+header .container .top_left_header .logo {
+	background: url(img/logo.png) no-repeat;
+	width: 125px;
+	height: 111px;
+	margin-top: 56px;
+	margin-left: 64px;
+}
+header .container .top_right_header {
+	height: 100%;
+	float: right;
+}
+header .container .top_right_header .social_logo {
+	height: 16px;
+	list-style-type: none;
+}
+header .container .top_right_header .social_logo li {
+	float: right;
+}
+header .container .top_right_header .social_logo .logo_f {
+	background: url(img/logo_f.png) no-repeat;
+	width: 16px;
+	height: 100%;
+}
+header .container .top_right_header .social_logo .logo_tw {
+	background: url(img/logo_tw.png) no-repeat;
+	width: 16px;
+	height: 100%;
+}
+header .container .top_right_header .social_logo .logo_utube {
+	background: url(img/logo_utube.png) no-repeat;
+	width: 16px;
+	height: 100%;
+}
+header .container .top_right_header .social_logo .logo_p {
+	background: url(img/logo_p.png) no-repeat;
+	width: 16px;
+	height: 100%;
+}
+header .container .top_right_header .social_logo .logo_insta {
+	background: url(img/logo_insta.png) no-repeat;
+	width: 16px;
+	height: 100%;
+}
